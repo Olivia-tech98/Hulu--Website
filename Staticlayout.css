@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg)
+
+}
+h1{
+    color: rgba(0, 128, 100, 0.767);
+    font-size: small;
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+}
+
+p{
+    color: white;
+    font-size: small;
+    text-align: right;
+    position: relative;
+    top: -80px;
+    left: -5px;
+}
+
+.h2{
+    color: lightgreen;
+    font-size: 1.5in;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.h3{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    top: -90px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    top: -85px;
+}
+
+h5{
+    color: black;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    background-color: white;
+    margin: -50px;
+    padding: 1%;
+    box-sizing: content-box;
+    width: 20%;
+    height: 7%;
+    right: -550px;
+    top: -35px;
+    border-radius: 5px;
+}    
+
+h6 {
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    font-size: small;
+}
+
+.ribbon {
+    background-image: linear-gradient(black, rgb(0, 204, 255));
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(144, 238, 214);
+}
+
+.banner{
+    padding: 28px;
+}
+
+img {
+    width: 30%;
+    height: 20%;
+    position: relative;
+    bottom: -15px;
+    left: -80px;
+}
+
+span {
+    color: white;
+    font-size: large;
+    position: relative;
+    top: 75px;
+    right: -280px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button {
+    position: relative;
+    bottom: -40px;
+    right: -150px;
+    width: 10%;
+    height: 10%;
+    background: transparent;
+    color: white;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 20%;
+    background-color: black;
+}
+
+.item {
+    position: relative; 
+    height: 40vh;
+    width: 20vh;
+    margin-top: 10vh;
+    z-index: 0;
+}
+
+.header {
+    position: absolute;
+    color: white;
+    margin-top: -10vh;
+}
